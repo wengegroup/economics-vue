@@ -1,0 +1,126 @@
+.add_btn {
+  background: linear-gradient(to bottom, #95ca04, #9ed016, #afdb39);
+  border-color: transparent;
+  box-shadow: 0px 15px 25px #eff7d8;
+  color: white;
+  padding: 1px 15px 2px;
+
+}
+
+.add_btn:hover {
+  color: white;
+  box-shadow: 0px 2px 10px #95ca04;
+  border-color: #95ca04;
+}
+
+.search_btn {
+  background: linear-gradient(to bottom, #00acf1, #0cb0f3, #37c1fa, #45c7fc);
+  box-shadow: 0px 15px 25px #d7f2fd;
+  border-color: transparent;
+  color: white;
+  padding: 1px 15px 2px;
+}
+
+.search_btn:hover,
+.update_btn:hover {
+  color: white;
+  /* box-shadow: 0 2px 3px 2px rgba(0, 0, 0, 0.1); */
+  box-shadow: 0px 5px 5px #00acf1;
+  border-color: #00acf1;
+}
+
+.update_btn {
+  background: linear-gradient(to bottom, #00acf1, #17b5f4, #45c7fc);
+  border-color: transparent;
+  color: white;
+  padding: 1px 15px 2px;
+}
+
+.greyBtn>span {
+  margin-left: -15px;
+}
+
+.iconFront.small {
+  min-width: 80px !important;
+}
+
+.iconFront>span>.ivu-icon {
+  float: left !important;
+  margin-left: -10px !important;
+  margin-right: -10px !important;
+  padding-left: -1px !important;
+}
+
+.greyBtn>span>.ivu-icon {
+  float: left !important;
+  margin-left: -13px !important;
+  margin-right: -11px !important;
+  padding-left: -1px !important;
+  background: #bcc1c8 !important;
+}
+
+
+.meun_list .ivu-menu-submenu .ivu-menu-submenu-title .ivu-menu-submenu-title-icon {
+  right: 2px;
+
+}
+
+.meun_list a {
+  color: #4c5a78;
+}
+
+.meun_list .ivu-menu-item.ivu-menu-item-active {
+  background-color: #00acf1 !important;
+  -webkit-box-shadow: 0px 10px 30px #0559fd80;
+  box-shadow: 0px 10px 30px #0559fd80;
+  color: #fff !important;
+
+}
+
+.customizeScrolebar::-webkit-scrollbar {
+  width: 6px;
+  /*高宽分别对应横竖滚动条的尺寸*/
+  height: 1px;
+}
+
+.customizeScrolebar::-webkit-scrollbar-thumb {
+  /*滚动条里面小方块*/
+  border-radius: 6px;
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  background: #03acec;
+}
+
+.customizeScrolebar::-webkit-scrollbar-track {
+  /*滚动条里面轨道*/
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  background: #ededed;
+}
+
+.customizeScrolebar {
+  /*IE*/
+  scrollbar-arrow-color: #2db7f5;
+  /**/
+  /*三角箭头的颜色*/
+  scrollbar-face-color: #2db7f5;
+  /**/
+  /*立体滚动条的颜色*/
+  scrollbar-3dlight-color: #ededed;
+  /**/
+  /*立体滚动条亮边的颜色*/
+  scrollbar-highlight-color: #ededed;
+  /**/
+  /*滚动条空白部分的颜色*/
+  scrollbar-shadow-color: #ededed;
+  /**/
+  /*立体滚动条阴影的颜色*/
+  scrollbar-darkshadow-color: #ededed;
+  /**/
+  /*立体滚动条强阴影的颜色*/
+  scrollbar-track-color: #ededed;
+  /**/
+  /*立体滚动条背景颜色*/
+  scrollbar-base-color: #f8f8f8;
+  /**/
+  /*滚动条的基本颜色*/
+}

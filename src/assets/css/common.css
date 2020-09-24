@@ -1,0 +1,46 @@
+.clearfix:after {
+  content: "020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+.no-wrap {
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.ivu-page {
+  text-align: center;
+  padding: 1em 0;
+}
+/* 滚动条优化 */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 10px;
+  background-color: #e7dddd;
+  border-radius:10px;
+}
+
+/* 滚动槽 */
+::-webkit-scrollbar-track {
+  border-radius:10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #bfc1c4;
+  border-radius: 10px;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+}
